@@ -1,5 +1,6 @@
 {
   "name": "Gameotivity",
+  "homepage": "http://gameotivity.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
