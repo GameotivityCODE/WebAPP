@@ -14,18 +14,19 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
     return (
-        <div>
-
-            <Home />
-            <Partners />
-            <SliderButtons />
-            <News />
-            <Slider />
-            <Team />
-            <MoreInfo />
-            <Testimonial />
-            <Footer />
-        </div>
+      <div>
+        <Home />
+        <Partners />
+        <SliderButtons />
+        <News />
+        /*
+        <Slider />
+        */
+        <Team />
+        <MoreInfo />
+        <Testimonial />
+        <Footer />
+      </div>
     );
 }
 
