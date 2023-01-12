@@ -76,23 +76,19 @@ function Team() {
     };
 
     return (
-        <div id="team" className="team">
-            <h1>Team</h1>
-            {/* <h2>Pause On Hover slider</h2>  */}
-            <div className="team-slider">
-                <Slider {...settings}>
-                    {photos.map((photo) => {
-                        return (
-                            <div>
-                                {photo.img}
-                            </div>
-                        )
-                    })}
-
-                </Slider>
-            </div>
-            <div className="team-shadow"></div>
+      <div id="team" className="team">
+        <h1></h1>
+        <h1></h1>
+        {/* <h2>Pause On Hover slider</h2>  */}
+        <div className="team-slider">
+          <Slider {...settings}>
+            {photos.map((photo) => {
+              return <div>{photo.img}</div>;
+            })}
+          </Slider>
         </div>
+        <div className="team-shadow"></div>
+      </div>
     );
 }
 

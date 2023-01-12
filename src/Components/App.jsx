@@ -19,9 +19,6 @@ function App() {
         <Partners />
         <SliderButtons />
         <News />
-        /*
-        <Slider />
-        */
         <Team />
         <MoreInfo />
         <Testimonial />
